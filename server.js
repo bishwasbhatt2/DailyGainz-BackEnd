@@ -22,7 +22,7 @@ admin.initializeApp({
 const db = admin.firestore();
 
 // Set up SendGrid API key
-sgMail.setApiKey('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'); // Replace with your actual SendGrid API key
+sgMail.setApiKey(''); // Replace with your actual SendGrid API key
 
 const app = express();
 app.use(cors({ origin: 'http://localhost:5173' })); // Adjust CORS origin as needed
